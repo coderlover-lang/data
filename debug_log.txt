@@ -1,0 +1,11 @@
+eles 
+
+eles = list(eles)
+
+len(eles[2].find_elements(by = By.XPATH, value = './/a') )
+
+aaa = eles[2].find_elements(by = By.XPATH, value = './/a')
+demo = aaa[0]
+demo.get_attribute("href")
+
+
